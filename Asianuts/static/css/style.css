@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap");
+
+
+.logo{
+    max-width: 100px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.2s ease-out;
+}
+body {
+    background-color: #eee;
+    color: #111;
+}
+nav {
+    float: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+nav a {
+    font-size: x-large;
+    padding: 15px;
+    color: #111;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0 10px 10px 0;
+}
+nav a:hover {
+    background-color: #3131316b;
+}
+.slider{
+    max-width: 200px;
+}
